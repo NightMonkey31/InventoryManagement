@@ -17,7 +17,7 @@ namespace InventoryManagement
                 var pin = Console.ReadLine();
 
 
-                Console.WriteLine("Enter PassKey:");
+                Console.WriteLine("Enter license:");
                 int Key = int.Parse(Console.ReadLine());
 
                 if (license_Key == Key)
@@ -27,7 +27,7 @@ namespace InventoryManagement
                 }
                 else
                 {
-                    Console.WriteLine("The PassKey does not match!! Try Again!!!//n");
+                    Console.WriteLine("The licenseKey does not match!! Try Again!!! \n");
                 }
             }
 
@@ -52,7 +52,7 @@ namespace InventoryManagement
                 }
                 else
                 {
-                    Console.WriteLine("Icorrect username / password. Please Try again");
+                    Console.WriteLine("Incorrect username / password. Please Try again");
                 }
                 Console.WriteLine();
             }

@@ -32,7 +32,7 @@ namespace InventoryManagement
 
                     case "3":
                         Console.WriteLine("**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~**");
-                        Console.WriteLine("||    !Thank you for using this!    ||");
+                        Console.WriteLine("||             !GOODBYE!            ||");
                         Console.WriteLine("**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~**");
                         Console.ReadLine();
                         return;

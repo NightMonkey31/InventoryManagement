@@ -24,12 +24,12 @@ namespace InventoryManagement
         public List<string> item = new List<string>();
         public void Additems()
         {
-            Console.WriteLine("how many assets you want to add: ");
+            Console.WriteLine("How many assets you want to add: ");
             int x = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < x; i++)
             {
-                Console.WriteLine($"enter asset {i + 1}");
+                Console.WriteLine($"Enter asset {i + 1}: \n");
                 string asset = Console.ReadLine();
                 item.Add(asset);
 
